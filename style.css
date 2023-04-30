@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-  height: 525px;
+  height: 475px;
   width: 360px;
   margin: 100px auto;
   background: #f7f7f7;
@@ -58,7 +58,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
-  margin: 30px auto;
+  margin: 30px auto 20px;
   background: var(--primary-color);
   border-radius: 10px;
   width: 200px;
@@ -70,4 +70,9 @@ body {
 .formSubmit:hover {
   background: #fcbebe;
   font-weight: normal;
+}
+
+#totalTips {
+  font-size: 20px;
+  text-align: center;
 }
